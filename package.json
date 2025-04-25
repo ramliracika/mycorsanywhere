@@ -1,19 +1,11 @@
 {
-  "name": "cors-proxy",
+  "name": "cors-anywhere",
   "version": "1.0.0",
-  "description": "CORS Proxy",
   "main": "server.js",
-  "dependencies": {
-    "express": "^4.17.1",
-    "node-fetch": "^2.6.1",
-    "cors": "^2.8.5"
-  },
   "scripts": {
     "start": "node server.js"
   },
-  "engines": {
-    "node": "14.x"
-  },
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "cors-anywhere": "^0.4.4"
+  }
 }
