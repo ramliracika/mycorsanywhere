@@ -4,6 +4,6 @@
 
 [[redirects]]
   from = "/*"
-  to = "/.netlify/api/:splat"
+  to = "/.netlify/api/proxy/:splat"
   status = 200
   force = true
