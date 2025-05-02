@@ -1,9 +1,9 @@
 [build]
-  functions = "api"
+  functions = "functions"
   publish = "public"
 
 [[redirects]]
   from = "/*"
-  to = "/.netlify/api/proxy/:splat"
+  to = "/.netlify/functions/proxy/:splat"
   status = 200
   force = true
